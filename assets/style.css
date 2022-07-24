@@ -1,0 +1,18 @@
+  /* polices */
+  @font-face {
+    font-family: "Barlow-SemiBold";
+    src: url("polices/Barlow-SemiBold.ttf");
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "Fraunces-Black";
+    src: url("polices/Fraunces-Black.ttf");
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "Fraunces-Bold";
+    src: url("polices/Fraunces-Bold.ttf");
+    font-weight: bold;
+  }
