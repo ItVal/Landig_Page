@@ -82,3 +82,11 @@ nav ul li a:hover{
     border-radius: 20px;  
     font-weight: bold;
 }
+.sc1{
+    background-image : url('images/desktop/image-header.jpg');
+    background-repeat:no-repeat;
+    background-position : bottom;
+    height : 100vh;
+    background-size : 100%;
+  }
+    
