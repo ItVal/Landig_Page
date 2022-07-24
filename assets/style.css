@@ -16,3 +16,45 @@
     src: url("polices/Fraunces-Bold.ttf");
     font-weight: bold;
   }
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow-SemiBold', sans-serif;
+}
+
+
+
+/*   design laptop */
+.mobile1, .mobile2 {
+ display: none;
+}
+a{
+  text-decoration: none;
+  color : white ;
+  font-size : 20px;
+ 
+}
+.logo
+{
+   color : white ;
+  font-size : 20px;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding : 15px;
+    height: 10vh;
+}
+
+/* Logo */
+header .logo{
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
