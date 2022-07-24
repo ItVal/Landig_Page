@@ -89,4 +89,24 @@ nav ul li a:hover{
     height : 100vh;
     background-size : 100%;
   }
+
+  .bordercont{
+    color: black;
+    background-color: white;
+    border-radius: 20px;   
+  }
+  
+h1{
+  text-align : center;
+  color : white;
+  padding-top: 10px;
+  font-size : 50px;
+  font-family: 'Fraunces-Black', sans-serif;
+}
+.img
+  {
+  text-align : center;
+  padding-top: 50px;
+ 
+}
     
