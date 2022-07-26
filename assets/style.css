@@ -379,4 +379,40 @@ footer{
       font-size : 50px;
       font-family: 'Fraunces-Black', sans-serif;
     }
+     /* debut menu hambourgeur   */
+
+ nav::before {
+  content : url("images/icon-hamburger.svg");
+}
+
+header ul {
+ display: none;
+ text-align: center;
+ padding: 10px 20px 10px 20px;
+}
+
+
+nav:hover ul{
+ position: fixed;
+ display: flex ;
+ right: 30px;
+ top: 20px;
+ left: 10px;
+ flex-direction: column;
+ justify-content: center;
+ background-color: white; 
+ padding-left: 280px;
+  padding-right: 280px;
+}
+nav ul li a{
+  color : black ;
+}
+.bordercont{
+ background-color:yellow;
+ border-radius: 20px;  
+ 
+
+}
+
+/* fin menu hambourgeur   */
   }
