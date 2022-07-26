@@ -352,3 +352,31 @@ footer{
              ul.socialicon>li{
                padding : 50px 10px;
              }
+
+    /*   design Smartphone */
+    @media  screen and (max-width : 720px)
+    {
+
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    .desktop1, .desktop2 {
+      display: none;
+    }
+    .mobile1, .mobile2 {
+      display:inherit ;
+    }
+
+    h1{
+      text-align : center;
+      color : white;
+      padding-top: 10px;
+      padding-left: 100px;
+      padding-right: 100px;
+      font-size : 50px;
+      font-family: 'Fraunces-Black', sans-serif;
+    }
+  }
