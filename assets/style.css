@@ -415,4 +415,161 @@ nav ul li a{
 }
 
 /* fin menu hambourgeur   */
+.TransB{
+  padding : 10px ;
+  Text-align : center;
+  align-items: center ;
+  justify-content: center ;
+}
+.Pjustify{
+  padding : 50px 80px;
+  text-align : center ;
+  align-items: center ;
+  justify-content: center ;
+}
+
+.bold {
+
+  text-align : center;
+  padding-right : 150px;
+  padding-bottom: 30px;
+}
+
+.ClientT{
+  text-align : center;
+  padding-top : 30px;
+  padding-bottom : 50px;
+  color : #808080;
+}
+
+
+    .sc1{
+      background-image : url('images/mobile/image-header.jpg');
+      background-repeat:no-repeat;
+      background-position : bottom;
+      height : 120vh;
+      background-size : 100%;
+    }
+      
+      .sc2{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+      }
+      .sc2a{
+        width: 100%;
+        height: 100%;
+        text-align: center ;
+        align-items: center;
+        overflow: hidden;
+    }
+    .sc3{
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
   }
+  .sc3a{
+    width: 100%;
+    height: 100%;
+    text-align: center ;
+    align-items: center;
+  }
+  .sc3a:nth-child(2){
+    padding-top: 0px ;
+    text-align: center ;
+    align-items: center;
+  }
+  .sc4{
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sc4a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+   
+     
+    
+
+  }
+.sc4a:nth-child(1){
+  background-image : url('images/desktop/image-graphic-design.jpg');
+  background-repeat:no-repeat;
+  height : 100vh;
+  background-size : 100%;
+  background-position: center;
+  margin : 0px ;
+  padding : 0px ;
+
+}
+  .sc4a:nth-child(2){
+   background-image : url('images/desktop/image-photography.jpg');
+  background-repeat:no-repeat;
+  height : 100vh;
+  background-size : 100%;
+  background-position: center;
+ 
+
+}
+.BottomPo{
+  padding : 0px;
+  text-align : justify ;
+  }
+.Txt4{
+padding-top : 350px;
+text-align : center;
+}
+.pgp4{
+  padding-top : 10px;
+  padding-bottom : 70px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align : center;
+}
+
+.mobile2{
+  max-width : 100%;
+  height : 100%;
+  }
+
+.sc5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.sc5a{
+width: 100%;
+height: 100%;
+}
+
+.sc6{
+  display: flex ;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  padding : 0px;
+}
+.sc6a{
+width: 50%;
+height: 100%;
+}
+.timg{
+  width : 10%;
+  height : auto;
+   overflow:hidden;
+   -webkit-border-radius:50px;
+   -moz-border-radius:50px;
+   border-radius:30px;
+   justify-content: center ;
+   align-items : center;
+   padding-top: 0px;
+ 
+}
+  
+      
+    }
