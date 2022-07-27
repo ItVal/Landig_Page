@@ -338,6 +338,25 @@ ul.socialicon > li {
 }
 
 /*   design Smartphone */
+@media screen and (max-width: 980px) {
+.sc1 {
+  background-image: url("images/mobile/image-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: 100%;
+}
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 90px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 50px;
+  font-family: "Fraunces-Black", sans-serif;
+}
+}
+
 @media screen and (max-width: 720px) {
   * {
     margin: 0px;
@@ -378,23 +397,24 @@ ul.socialicon > li {
   nav:hover ul {
     position: fixed;
     display: flex;
-    right: 30px;
+    right: 10px;
     top: 20px;
-    left: 10px;
+   
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    padding-left: 280px;
-    padding-right: 280px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
   }
   nav ul li a {
     color: black;
+   
+    
   }
   .bordercont {
-    background-color: yellow;
-    border-radius: 20px;
+   background-color:yellow;
   }
-
   /* fin menu hambourgeur   */
   .TransB {
     padding: 10px;
@@ -541,7 +561,7 @@ ul.socialicon > li {
     padding-top: 0px;
   }
 
-
+}
 @media screen and (max-width: 520px) {
   * {
     margin: 0px;
@@ -566,9 +586,9 @@ ul.socialicon > li {
   h1 {
     text-align: center;
     color: white;
-    padding-top: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
     font-size: 30px;
     font-family: "Fraunces-Black", sans-serif;
   }
@@ -589,19 +609,22 @@ ul.socialicon > li {
     display: flex;
     right: 30px;
     top: 20px;
-    left: 10px;
+   
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   nav ul li a {
     color: black;
+    font-size: 12px;
   }
   .bordercont {
     background-color: yellow;
     border-radius: 20px;
+    background-size: 5px;
+    
   }
 
   /* fin menu hambourgeur   */
@@ -624,22 +647,27 @@ ul.socialicon > li {
     padding: 0px;
     margin-bottom: 20px;
   }
+  .bold1{
+    padding-top: 15px;
+  }
 
   .ClientT {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: #808080;
   }
 
   .sc1 {
     background-image: url("images/mobile/image-header.jpg");
     background-repeat: no-repeat;
-    background-position: bottom;
-    height: 120vh;
+    background-position: center;
+    height: 50vh;
     background-size: 100%;
   }
-
+.imgAro{
+  height: 10vh;
+}
   .sc2 {
     flex-direction: column-reverse;
     align-items: center;
@@ -699,19 +727,21 @@ ul.socialicon > li {
     
   }
   .BottomPo {
-    padding-top: 60px;
+    padding-top: 40px;
     text-align: bottom;
     
   }
   .Txt4 {
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: center;
     color : white;
   }
   .pgp4 {
-    padding-left: 50px;
-    padding-right: 50px;
+   
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: center;
+    font-size: 10px;
   }
 
   .mobile2 {
@@ -751,10 +781,278 @@ ul.socialicon > li {
     border-radius: 30px;
     justify-content: center;
     align-items: center;
-    padding-top: 0px;
+   margin-top: 15px;
+   margin-bottom: 0px;
   }
   .logoff{
     width: 100px;
     height: 30px;
   }
+
+  .msg{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .msg1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+.socialicon{
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 300px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .logoss{
+    width: 70px;
+    height: 20px;
+  }
+  .desktop1,
+  .desktop2 {
+    display: none;
+  }
+  .mobile1,
+  .mobile2 {
+    display: inherit;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: "Fraunces-Black", sans-serif;
+  }
+  /* debut menu hambourgeur   */
+
+  nav::before {
+    content: url("images/icon-hamburger.svg");
+  }
+
+  header ul {
+    display: none;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+  }
+
+  nav:hover ul {
+    position: fixed;
+    display: flex;
+    right: 30px;
+    top: 20px;
+   
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  nav ul li a {
+    color: black;
+    font-size: 12px;
+  }
+  .bordercont {
+    background-color: yellow;
+    border-radius: 20px;
+    background-size: 5px;
+    
+  }
+
+  /* fin menu hambourgeur   */
+  .TransB {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .Pjustify {
+    padding: 20px 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bold {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .bold1{
+    padding-top: 15px;
+  }
+
+  .ClientT {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #808080;
+  }
+
+  .sc1 {
+    background-image: url("images/mobile/image-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 200vw;
+    background-size: 100%;
+  }
+.imgAro{
+  height: 10vh;
+}
+  .sc2 {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 200vw;
+  }
+  .sc2a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .mobile1{
+    width: 100%;
+  }
+  .sc3 {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 200vw;
+  }
+  .sc3a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .sc3a:nth-child(2) {
+    padding-top: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  .sc4 {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 200vw;
+  }
+  .sc4a {
+     width: 100%;
+     height: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .sc4a:nth-child(1) {
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    background-position: center;
+    
+  }
+  .sc4a:nth-child(2) {
+    background-image: url("images/desktop/image-photography.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: 100%;
+    
+  }
+  .BottomPo {
+    padding-top: 40px;
+    text-align: bottom;
+    
+  }
+  .Txt4 {
+    padding-top: 60px;
+    text-align: center;
+    color : white;
+  }
+  .pgp4 {
+   
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .mobile2 {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .sc5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 200vw;
+  }
+  .sc5a {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sc6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0px;
+    width: 200vw;
+  }
+  .sc6a {
+    width: 50%;
+    height: 100%;
+    
+  }
+  .timg {
+    width: 10%;
+    height: auto;
+    overflow: hidden;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+   margin-top: 15px;
+   margin-bottom: 0px;
+  }
+  .logoff{
+    width: 100px;
+    height: 30px;
+  }
+
+  .msg{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .msg1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+.socialicon{
+    padding-top: 0px;
+  }
+footer{
+  width: 200vw;
+}
 }
